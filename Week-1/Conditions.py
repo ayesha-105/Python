@@ -11,7 +11,7 @@ else:                                         #else block will be executed if al
     print("x is between 10 and 30 but not 20")
 
 # Check Positive/Negative/Zero
-num = int(input("Enter a number: "))
+num = int(input("Enter a 5number: "))
 
 if num > 0:
     print("Positive")
@@ -31,5 +31,10 @@ elif marks >= 50:
     print("C")
 else:
     print("F")
+
+# If you have only one statement to execute, you can put it on the same line as the if statement.
+num1= 10
+if num1 > 0: print("Positive number")
+
 
 
