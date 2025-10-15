@@ -27,6 +27,34 @@ print(type(name))
 print(type(height))
 print(type(a))
 
+# assigning multiple values to multiple variables 
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+# assigning the same value to multiple variables
+color = fruit = "Orange"
+print(color)
+print(fruit)
+
+# Global variable, it can be used inside and outside of functions
+abc = "awesome"
+def myfunc():
+  print(f"Python is {abc} Programming language")
+myfunc()
+
+''' Create a variable inside a function, with the same name as the global variable,
+it will be local and can only be used inside the function. The global variable with the same name
+will remain as it is.'''
+
+xyz = "awesome"
+def myfunc():
+  xyz = "fantastic"
+  print(f"Python is {xyz} Programming language")
+myfunc()
+print(f"Python is {xyz} Programming language")
+
 # Lists it stores multiple values in a single variable
 numbers = [28, 30, 27, 29, 31]
 print(numbers)
@@ -51,4 +79,5 @@ length = float(input("Enter the length of the rectangle: "))
 width = float(input("Enter the width of the rectangle: "))
 area = length * width
 print(f"The area of the rectangle is: {area}")
+
 
