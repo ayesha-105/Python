@@ -7,6 +7,13 @@ name = "Ayesha Malik"
 for x in name:
     print(x)
 
+# Reverse iterating through a string
+name = "Ayesha Malik"
+reversed_name= ""
+for x in name:
+    reversed_name= x + reversed_name
+print(reversed_name)
+
 # Iterating through a list
 fruits = ["Apple", "Banana", "Cherry"]
 for fruit in fruits:
