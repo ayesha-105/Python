@@ -1,0 +1,21 @@
+{
+    "student": {
+        "name": "Ayesha Malik",
+        "age": 20,
+        "skills": [
+            "Python",
+            "SQL",
+            "Excel"
+        ],
+        "address": {
+            "city": "Karachi",
+            "country": "Pakistan",
+            "postal_code": "560001"
+        },
+        "marks": {
+            "math": 95,
+            "english": 88,
+            "science": 92
+        }
+    }
+}
