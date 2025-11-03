@@ -145,24 +145,24 @@ result = list(map(lambda x: x * 2, numbers))  # Using map to apply lambda functi
 print(result)
 
 
-# Recursion: A function that calls itself is known as a recursive function.
-def factorial(n):
-   if ( n== 0 or n == 1):
-       return 1
-   else:
-      return n * factorial(n-1)    #recursive call
-print(factorial(3))
-print(factorial(5))
-print(factorial(7))
+# # Recursion: A function that calls itself is known as a recursive function.
+# def factorial(n):
+#    if ( n== 0 or n == 1):
+#        return 1
+#    else:
+#       return n * factorial(n-1)    #recursive call
+# print(factorial(3))
+# print(factorial(5))
+# print(factorial(7))
 
-'''enerators allow you to iterate over data without storing the entire dataset in memory.
-Instead of using return, generators use the yield keyword.'''
+# '''enerators allow you to iterate over data without storing the entire dataset in memory.
+# Instead of using return, generators use the yield keyword.'''
 
-def my_generator():
-   for i in range(15):
-      yield i 
-gen = my_generator()
+# def my_generator():
+#    for i in range(15):
+#       yield i 
+# gen = my_generator()
 
-# using a for loop to iterate through all values produced by the generator
-for value in gen:
-   print(value)
+# # using a for loop to iterate through all values produced by the generator
+# for value in gen:
+#    print(value)
