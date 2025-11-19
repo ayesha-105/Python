@@ -85,6 +85,6 @@ p1.change_name("Areeba") # it change the class attribute name
 print(p1.name)            # it print the updated class attribute name
 
 
-    
+  
 
 
