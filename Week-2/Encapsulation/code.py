@@ -27,5 +27,37 @@ print(p1.get_age())
 p1.set_age(25)
 print(p1.get_age())
 
-class BankAccount:
-   
+class Backaccount:
+    def __init__(self, acc_number, balance):
+        self.acc_number= acc_number
+        self.__balance= balance
+    
+    def get_balance(self):
+        return self.__balance
+    
+    def deposit(self, amount):
+        if amount >0:
+            self.__balance += amount
+            print(f"The amount {amount} is deposited. Current balance is {self.__balance}")
+        else:
+            print("Invalid amount")
+    
+    def withdraw(self, amount):
+        if amount <= self.__balance:
+            self.__balance -= amount
+            print(f"The amount {amount} is withdrawn. Remaining balance is {self.__balance}")
+        else:
+            print("Insufficient funds")
+    
+
+acc1= Backaccount("1001", 10000)
+print("Account number: " , acc1.acc_number)
+print("Current Balance: " , acc1.get_balance())
+acc1.deposit(5000)
+acc1.withdraw(3000)
+
+
+
+
+
+
