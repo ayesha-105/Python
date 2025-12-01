@@ -1,4 +1,4 @@
-'''Single inheritance means one child class derives properties and methods from one parent class.'''
+# Single inheritance means one child class derives properties and methods from one parent class.
 
 class Car:
     type= "Automatic"

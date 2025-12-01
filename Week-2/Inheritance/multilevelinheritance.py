@@ -25,7 +25,7 @@ class Alto(SUZUKI):
         self.model=model
         print(f"car model is {self.model}")
 
-# Overriding start method it means reuse the meethod of parent class with some modification in child class
+# overriding start method it means reuse the meethod of parent class with some modification in child class
     def start(self):  
         print("Alto started silently with new ECO technology")
 

@@ -1,6 +1,6 @@
 ''' Overloading: This a way to define multiple behaviors for a single function or operator based 
 on the context in which it is used. In Python, operator overloading allows you to define how operators 
-like +, -, *, etc., behave for user-defined classes.'''
+like + - * etc. behave for user-defined classes.'''
 
 class Vector:
     def __init__(Self, i, j, k):
