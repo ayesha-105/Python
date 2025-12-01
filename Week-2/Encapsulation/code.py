@@ -54,7 +54,7 @@ acc1= Backaccount("1001", 10000)
 print("Account number: " , acc1.acc_number)
 print("Current Balance: " , acc1.get_balance())
 acc1.deposit(5000)
-acc1.withdraw(3000)
+acc1.withdraw(2000)
 
 
 

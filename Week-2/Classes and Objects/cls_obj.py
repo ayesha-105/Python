@@ -1,7 +1,4 @@
 #creating class
-from sys import exception
-
-
 class student:
     uniname= "SMIU"
 
