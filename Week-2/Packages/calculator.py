@@ -9,7 +9,7 @@ def multiply(a, b):
 
 def divide(a, b):
     if b == 0:
-        print(" this number is not divisble by zero")
+        print(" This number is not divisble by zero")
     else:
         return a / b
     
