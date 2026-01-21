@@ -91,32 +91,61 @@ def update_item():
 
                 if choice == "1":
                     item["item_name"] = input("Enter new item name: ").strip()
-
                 elif choice == "2":
                     item["item_category"] = input("Enter new category: ").strip()
-
                 elif choice == "3":
                     item["quantity"] = int(input("Enter new quantity: "))
-
                 elif choice == "4":
                     item["supplier"] = input("Enter new supplier: ").strip()
-
                 elif choice == "5":
                     item["price_per_unit"] = float(input("Enter new price per unit: "))
-
                 elif choice == "6":
-                    item["expiry_date"] = input(
-                        "Enter new expiry date (YYYY-MM-DD): "
-                    ).strip()
-
+                    item["expiry_date"] = input("Enter new expiry date (YYYY-MM-DD): ").strip()           
                 elif choice == "7":
                     save_data(items)
                     print("Item record updated successfully!")
                     return
-
                 else:
                     print("Invalid choice. Try again.")
 
         except ValueError:
             print("Invalid input. Please enter correct numeric values.")
+            
+
+def delete_item():
+    items=load_data()
+    while True:
+        try: 
+            id= int(input("Enter Item Id delete the item (or 0 to go back): "))
+            if id==0:
+                print("Main menu.")
+                break
+        
+            item= None
+            for i in items:
+                if i["item_id"]== id:
+                    item= i
+                    break
+        
+            if not item:
+                print("This item ID not found, please enter a valid ID.")
+                continue
+
+            items.remove(item)
+            save_data(items)
+            print("The item has been deleted successfully.")
+            break
+        
+        except ValueError:
+            print("Invalid input. Please enter correct a valid Item ID.")
+
+def list_items():
+    items= load_data()
+    if not items:
+        print("No tems found.")
+        return
+    
+    print("\nItems List:")
+    for i in items:
+        print(f"Item ID: {i['item_id']}, Name: {i['item_name']}, Category: {i['item_category']}, Quantity: {i['quantity']}, Supplier: {i['supplier']}, Price per Unit: {i['price_per_unit']},{i['date_added']} Expiry Date: {i['expiry_date']}")
 

@@ -1,42 +1,42 @@
 [
-  {
-    "item_id": 1,
-    "item_name": "Olpers Butter 200g",
-    "item_category": "Dairy",
-    "quantity": 45,
-    "supplier": "Multan Dairy Wholesale",
-    "price_per_unit": 450,
-    "date_added": "2025-11-12",
-    "expiry_date": "2026-02-15"
-  },
-  {
-    "item_id": 2,
-    "item_name": "Potatoes 1kg",
-    "item_category": "Vegetables",
-    "quantity": 120,
-    "supplier": "Punjab Fresh Farms",
-    "price_per_unit": 95,
-    "date_added": "2025-11-18",
-    "expiry_date": "2025-12-18"
-  },
-  {
-    "item_id": 3,
-    "item_name": "Basmati Rice 5kg",
-    "item_category": "Grains",
-    "quantity": 30,
-    "supplier": "Islamabad Grain Traders",
-    "price_per_unit": 1200,
-    "date_added": "2025-11-20",
-    "expiry_date": "2026-11-01"
-  },
-  {
-    "item_id": 4,
-    "item_name": "Fry Pan 28cm Nonstick",
-    "item_category": "Cookware",
-    "quantity": 10,
-    "supplier": "Karachi Kitchen Hub",
-    "price_per_unit": 2200,
-    "date_added": "2025-11-26",
-    "expiry_date": "2029-01-01"
-  }
+    {
+        "item_id": 1,
+        "item_name": "Olpers Butter 200g",
+        "item_category": "Dairy",
+        "quantity": 45,
+        "supplier": "Multan Dairy Wholesale",
+        "price_per_unit": 450,
+        "date_added": "2025-11-12",
+        "expiry_date": "2026-02-15"
+    },
+    {
+        "item_id": 2,
+        "item_name": "Potatoes 1kg",
+        "item_category": "Vegetables",
+        "quantity": 120,
+        "supplier": "Punjab Fresh Farms",
+        "price_per_unit": 95,
+        "date_added": "2025-11-18",
+        "expiry_date": "2025-12-18"
+    },
+    {
+        "item_id": 3,
+        "item_name": "Basmati Rice 5kg",
+        "item_category": "Grains",
+        "quantity": 30,
+        "supplier": "Islamabad Grain Traders",
+        "price_per_unit": 1200,
+        "date_added": "2025-11-20",
+        "expiry_date": "2026-11-01"
+    },
+    {
+        "item_id": 4,
+        "item_name": "Chocolates",
+        "item_category": "Sweets",
+        "quantity": 55,
+        "supplier": "Nestle",
+        "price_per_unit": 60.0,
+        "date_added": "2026-01-22",
+        "expiry_date": "2028-1-15"
+    }
 ]
