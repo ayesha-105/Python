@@ -33,7 +33,7 @@
         "item_id": 4,
         "item_name": "Chocolates",
         "item_category": "Sweets",
-        "quantity": 55,
+        "quantity": 50,
         "supplier": "Nestle",
         "price_per_unit": 60.0,
         "date_added": "2026-01-22",
